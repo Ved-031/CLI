@@ -18,7 +18,7 @@
 
 ## Screenshot 🖼️
 
-![CLI Screenshot](./ss.png)
+![CLI Screenshot](https://github.com/Ved-031/CLI/blob/main/ss.png)
 
 
 ## Installation
