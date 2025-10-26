@@ -1,0 +1,35 @@
+{
+  "name": "scaffoldy-cli",
+  "version": "1.0.3",
+  "description": "A CLI tool to quickly scaffold modern web projects",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "format": "prettier --write .",
+    "start": "node index.js"
+  },
+  "bin": {
+    "create-scaffold-app": "index.js"
+  },
+  "keywords": [
+    "cli",
+    "scaffold",
+    "boilerplate",
+    "react",
+    "nextjs"
+  ],
+  "author": "Ved Tellawar",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^5.6.2",
+    "execa": "^9.6.0",
+    "fs-extra": "^11.3.2",
+    "inquirer": "^12.10.0",
+    "ora": "^9.0.0",
+    "strip-json-comments": "^5.0.3"
+  },
+  "devDependencies": {
+    "prettier": "^3.6.2"
+  }
+}
